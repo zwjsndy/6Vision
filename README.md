@@ -4,7 +4,7 @@
 
 This model aims to address the detection problem in few-seed scenarios. It requires that the number of seed addresses under each BGP be as few as possible, for example, less than 10. The model is capable of enriching the number of seed addresses under these BGPs, achieving the transformation of few-seed scenarios. However, the algorithm can enter a large number of seed addresses, but because of the use of deep learning, it may take a long time.
 
-What's more, we **collected a number of addresses** in a few-seed scenarios and saved them in `IPv6hitlist_patch.txt`.
+What's more, we **collected a number of addresses** in a few-seed scenarios and saved them in `IPv6hitlist_patch.zip`.
 
 <img width="1336" alt="image" src="https://github.com/user-attachments/assets/f20e4300-ac14-4f00-b9cd-95802ac02d9e">
 
