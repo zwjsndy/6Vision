@@ -285,7 +285,7 @@ import re
 res=[]
 ## generate new images by PixelCNN
 model=all_model[int(args.num)]
-budget=args.budget
+budget=int(args.budget)
 cnt=0
 while len(list(set(res)))<budget:
     n_cols, n_rows = 1, budget*2//3
